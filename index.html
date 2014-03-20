@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Accordion : The Small and Simple Accordion" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Accordion</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mRizvandi/Accordion">View on GitHub</a>
+
+          <h1 id="project_title">Accordion</h1>
+          <h2 id="project_tagline">The Small and Simple Accordion</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mRizvandi/Accordion/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mRizvandi/Accordion/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome</h1>
+
+<p>sometime you may need a simple and small accordion. you don't want to add big script to your project and create the hell of unused code!
+you don't need callback function, events, cache and so on...</p>
+
+<p>yes you find the smallest accordion. the min size of jquery script is 218 bytes!
+Thank you to choose this simple and small accordion.</p>
+
+<p>Use this accordion is too easy, just make the template and call the accordion function.</p>
+
+<h2>
+<a name="html-markup-code-this-is-a-template" class="anchor" href="#html-markup-code-this-is-a-template"><span class="octicon octicon-link"></span></a>HTML markup code: (this is a template)</h2>
+
+<pre><code>&lt;div class="va-accordion"&gt;
+    &lt;span&gt;Accordion Main Header&lt;/span&gt;
+    &lt;h2&gt;Section Header 1&lt;/h2&gt;
+    &lt;div class="va-accordion-open"&gt;
+        Content (include any HTML markup)
+        &lt;br /&gt;
+        Hello world!
+    &lt;/div&gt;
+    &lt;h2&gt;Section Header 2&lt;/h2&gt;
+    &lt;div class="va-accordion-close"&gt;
+        Content (include any HTML markup)
+        &lt;br /&gt;
+        Hello world!
+    &lt;/div&gt;
+    &lt;h2&gt;Section Header 3&lt;/h2&gt;
+    &lt;div class="va-accordion-close"&gt;
+        Content (include any HTML markup)
+        &lt;br /&gt;
+        Hello world!
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h3>
+<a name="rules" class="anchor" href="#rules"><span class="octicon octicon-link"></span></a>Rules:</h3>
+
+<ul>
+<li>Accordion main header must be simple span.</li>
+<li>Section header must be one of header element (h1, h2, h3, ...)</li>
+<li>Section content must be div element</li>
+</ul><h2>
+<a name="css-and-style" class="anchor" href="#css-and-style"><span class="octicon octicon-link"></span></a>CSS and Style:</h2>
+
+<p>Use css to make a better view.
+CSS class used:</p>
+
+<p><strong>.va-accordion&gt;span</strong></p>
+
+<p>Make style for Accordion Header</p>
+
+<p><strong>.va-accordion&gt;h1, .va-accordion&gt;h2, .va-accordion&gt;h3</strong></p>
+
+<p>Apply style for Section Header</p>
+
+<p><strong>.va-accordion&gt;h1::before, .va-accordion&gt;h2::before, .va-accordion&gt;h3::before</strong></p>
+
+<p>Add some character icon before the Section Header (like triangle or something like that)</p>
+
+<p><strong>.va-accordion&gt;h1:hover, .va-accordion&gt;h2:hover, .va-accordion&gt;h3:hover</strong></p>
+
+<p>Make hover effect for Section Header</p>
+
+<p><strong>.va-accordion&gt;div</strong></p>
+
+<p>General style for Section Content</p>
+
+<p><strong>.va-accordion-open</strong></p>
+
+<p><strong>.va-accordion-close</strong></p>
+
+<p>Simple way to Show and Hide the Section Content on initializing.</p>
+
+<h2>
+<a name="script" class="anchor" href="#script"><span class="octicon octicon-link"></span></a>Script:</h2>
+
+<p>ok, everything we need are ready, add the script to your page and call the accordion function like this:
+(you need add the jquery also)</p>
+
+<pre><code>&lt;script src="Media/Script/jquery-1.9.1.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="Media/Script/vania.accordion.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function () {
+        accordion();
+    });
+&lt;/script&gt;
+</code></pre>
+
+<p>Congratulation process done!</p>
+
+<p>Be happy, Be Lucky.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Accordion maintained by <a href="https://github.com/mRizvandi">mRizvandi</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
