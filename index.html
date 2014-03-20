@@ -77,31 +77,24 @@ Thank you to choose this simple and small accordion.</p>
 <p>Use css to make a better view.
 CSS class used:</p>
 
-<p><strong>.va-accordion&gt;span</strong></p>
+<p><strong>.va-accordion&gt;span</strong><br>
+Make style for Accordion Header</p>
 
-<p>Make style for Accordion Header</p>
+<p><strong>.va-accordion&gt;h1, .va-accordion&gt;h2, .va-accordion&gt;h3</strong><br>
+Apply style for Section Header</p>
 
-<p><strong>.va-accordion&gt;h1, .va-accordion&gt;h2, .va-accordion&gt;h3</strong></p>
+<p><strong>.va-accordion&gt;h1::before, .va-accordion&gt;h2::before, .va-accordion&gt;h3::before</strong><br>
+Add some character icon before the Section Header (like triangle or something like that)</p>
 
-<p>Apply style for Section Header</p>
+<p><strong>.va-accordion&gt;h1:hover, .va-accordion&gt;h2:hover, .va-accordion&gt;h3:hover</strong><br>
+Make hover effect for Section Header</p>
 
-<p><strong>.va-accordion&gt;h1::before, .va-accordion&gt;h2::before, .va-accordion&gt;h3::before</strong></p>
+<p><strong>.va-accordion&gt;div</strong><br>
+General style for Section Content</p>
 
-<p>Add some character icon before the Section Header (like triangle or something like that)</p>
-
-<p><strong>.va-accordion&gt;h1:hover, .va-accordion&gt;h2:hover, .va-accordion&gt;h3:hover</strong></p>
-
-<p>Make hover effect for Section Header</p>
-
-<p><strong>.va-accordion&gt;div</strong></p>
-
-<p>General style for Section Content</p>
-
-<p><strong>.va-accordion-open</strong></p>
-
-<p><strong>.va-accordion-close</strong></p>
-
-<p>Simple way to Show and Hide the Section Content on initializing.</p>
+<p><strong>.va-accordion-open</strong><br>
+<strong>.va-accordion-close</strong><br>
+Simple way to Show and Hide the Section Content on initializing.</p>
 
 <h2>
 <a name="script" class="anchor" href="#script"><span class="octicon octicon-link"></span></a>Script:</h2>
@@ -109,8 +102,8 @@ CSS class used:</p>
 <p>ok, everything we need are ready, add the script to your page and call the accordion function like this:
 (you need add the jquery also)</p>
 
-<pre><code>&lt;script src="Media/Script/jquery-1.9.1.min.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;script src="Media/Script/vania.accordion.js" type="text/javascript"&gt;&lt;/script&gt;
+<pre><code>&lt;script src="Script/jquery-1.9.1.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="Script/vania.accordion.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;script type="text/javascript"&gt;
     $(document).ready(function () {
         accordion();
