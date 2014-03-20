@@ -1,0 +1,35 @@
+/* Mehdi Rizvandi Ver 1.0 13921221 */
+
+.va-accordion>span
+{
+	display:block;
+	padding:15px 5px 15px 40px;
+	color:#fff;
+    background:#003366 url('../../media/image/metro/message_icon_information.png') left 5px center no-repeat;
+    font-size:1.5em;
+}
+.va-accordion>h1, .va-accordion>h2, .va-accordion>h3
+{
+  background-color:#903;
+  color:#effcc2;
+  padding:7px 10px;
+  cursor:pointer;
+  display:block;
+  border-top:1px solid #cc9;
+}
+.va-accordion>h1::before, .va-accordion>h2::before, .va-accordion>h3::before
+{
+  content:"\25ba";
+  margin-right:5px;
+}
+.va-accordion>h1:hover, .va-accordion>h2:hover, .va-accordion>h3:hover 
+{
+    background:#542437;
+}
+.va-accordion>div
+{
+	padding:20px;
+	background-color:#e5fcc2;
+}
+.va-accordion-open {display:block;}
+.va-accordion-close {display:none;}
