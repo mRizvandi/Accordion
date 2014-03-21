@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Accordion Sample</title>
+    <style type="text/css">
+        * {padding:0px;margin:0px;}
+        footer ul {list-style:none;position:absolute;z-index:1;right:20px;top:20px;height:38px;padding:1px 0;background:#5198DF;width:auto;}
+        footer ul:before {content:'';position:absolute;z-index:-1;left:-5px;top:-4px;right:-5px;bottom:-6px;background:rgba(0, 0, 0, 0.1);-webkit-border-radius:8px;-moz-border-radius:8px;-ms-border-radius:8px;-o-border-radius:8px;border-radius:8px;-webkit-box-shadow:rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;-moz-box-shadow:rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;box-shadow:rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;}
+        footer ul li {width:79px;float:left;border-right:1px solid #3A7CBE;height:38px;}
+        footer ul li.single {border:none;}
+        footer ul li + li {width:78px;border-left:1px solid #8BBEF3;}
+        footer ul li + li + li {border-right:none;width:79px;}
+        footer ul a {line-height:1;font-size:11px;color:#fff;display:block;text-align:center;font-weight:400;padding-top:6px;height:40px;text-shadow:rgba(0, 0, 0, 0.4) 0 -1px 0;text-decoration:none;}
+        footer ul a strong {font-size:14px;display:block;color:#fff;-webkit-font-smoothing:antialiased;}
+    </style>
+    <link href="Style/vania.accordion.css" rel="stylesheet" type="text/css" />
+    <script src="Script/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="Script/vania.accordion.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            accordion();
+        });
+    </script>
+</head>
+<body>
+    <h1>Hello and Welcome to simple and small accordion</h1>
+    <h2>This is a sample</h2>
+    <br />
+    <div class="va-accordion">
+        <span>Accordion Main Header</span>
+        <h2>Section Header 1</h2>
+        <div class="va-accordion-open">
+            Content (include any HTML markup)
+            <br />
+            Hello world!
+        </div>
+        <h2>Section Header 2</h2>
+        <div class="va-accordion-close">
+            Content (include any HTML markup)
+            <br />
+            Hello world!
+        </div>
+        <h2>Section Header 3</h2>
+        <div class="va-accordion-close">
+            Content (include any HTML markup)
+            <br />
+            Hello world!
+        </div>
+    </div>
+    <br />
+    <hr />
+    <div style="position:relative;">
+        <footer>
+            <ul>
+                <li><a href="https://github.com/mRizvandi/Accordion/zipball/master">Download <strong>ZIP File</strong></a></li>
+                <li><a href="https://github.com/mRizvandi/Accordion/tarball/master">Download <strong>TAR Ball</strong></a></li>
+                <li><a href="https://github.com/mRizvandi/Accordion">View On <strong>GitHub</strong></a></li>
+                <li><a href="http://git.mRizvandi.com/Accordion">More Info <strong>Web Page</strong></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
