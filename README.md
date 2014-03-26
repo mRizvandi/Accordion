@@ -96,13 +96,22 @@ ok, everything we need are ready, add the script to your page and call the accor
     </script>
 
 ## Options:
-** slideOpenDuration: ** Animation timing of slide opening. Default value is: [500]
+**slideOpenDuration:** Animation timing of slide opening. Default value is: [500]
+
 Use different value to make some effect.
-** slideCloseDuration: ** Animation timing of slide closing. Default value is: [500]
+
+
+**slideCloseDuration:** Animation timing of slide closing. Default value is: [500]
+
 Use different value to make some effect.
-** closeOther: ** Only one content show or more, when user click on headers. Default value is: [true]
+
+
+**closeOther:** Only one content show or more, when user click on headers. Default value is: [true]
+
 Limit user to show only one panel content with closeOther: true, and if you want user enable to open some panels at same time, set closeOther: false
 
-** Congratulation process done! **
+
+
+**Congratulation process done!**
 
 Be happy, Be Lucky.
