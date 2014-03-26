@@ -1,4 +1,4 @@
-Accordion
+Vania.Accordion
 =========
 
 The Small and Simple Accordion
@@ -8,7 +8,7 @@ The Small and Simple Accordion
 sometime you may need a simple and small accordion. you don't want to add big script to your project and create the hell of unused code!
 you don't need callback function, events, cache and so on...
 
-yes you find the smallest accordion. the min size of jquery script is 218 bytes!
+yes you find the smallest accordion. the min size of jquery script is 413 bytes!
 Thank you to choose this simple and small accordion.
 
 Use this accordion is too easy, just make the template and call the accordion function.
@@ -95,7 +95,14 @@ ok, everything we need are ready, add the script to your page and call the accor
         });
     </script>
 
+## Options:
+** slideOpenDuration: ** Animation timing of slide opening. Default value is: [500]
+Use different value to make some effect.
+** slideCloseDuration: ** Animation timing of slide closing. Default value is: [500]
+Use different value to make some effect.
+** closeOther: ** Only one content show or more, when user click on headers. Default value is: [true]
+Limit user to show only one panel content with closeOther: true, and if you want user enable to open some panels at same time, set closeOther: false
 
-Congratulation process done!
+** Congratulation process done! **
 
 Be happy, Be Lucky.

@@ -15,8 +15,8 @@
     <a href="https://github.com/mrizvandi"><img style="position:absolute;top:0;right:0;border:0;" src="https://github-camo.global.ssl.fastly.net/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
     <div class="wrapper">
       <header>
-        <h1>Accordion</h1>
-        <p>The Small and Simple Accordion</p>
+        <h1>Vania.Accordion</h1>
+        <p>The Small and Simple Accordion - Version: 1.1</p>
         <p class="view">
             <a href="https://github.com/mRizvandi/Accordion">View the Project on GitHub <small>mRizvandi/Accordion</small></a>
             <br />
@@ -31,33 +31,34 @@
       </header>
       <section>
         <h1><a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome</h1>
-        <p>sometimes you may need a simple and small accordion. you don't want to add big script to your project and create the hell of unused code!
+        <p>Sometimes you may need a simple and small accordion. you don't want to add big script to your project and create the hell of unused code!
         you don't need callback function, events, cache and so on...</p>
-        <p>yes you find the smallest accordion. the min size of jquery script is 218 bytes!
+        <p>yes you find the smallest accordion. the min size of jquery script is 413 bytes!
         Thank you to choose this simple and small accordion.</p>
         <p>Use this accordion is too easy, just make the template and call the accordion function.</p>
         <h2><a name="html-markup-code-this-is-a-template" class="anchor" href="#html-markup-code-this-is-a-template"><span class="octicon octicon-link"></span></a>HTML markup code: (this is a template)</h2>
-        <pre><code>&lt;div class="va-accordion"&gt;
-            &lt;span&gt;Accordion Main Header&lt;/span&gt;
-            &lt;h2&gt;Section Header 1&lt;/h2&gt;
-            &lt;div class="va-accordion-open"&gt;
-                Content (include any HTML markup)
-                &lt;br /&gt;
-                Hello world!
-            &lt;/div&gt;
-            &lt;h2&gt;Section Header 2&lt;/h2&gt;
-            &lt;div class="va-accordion-close"&gt;
-                Content (include any HTML markup)
-                &lt;br /&gt;
-                Hello world!
-            &lt;/div&gt;
-            &lt;h2&gt;Section Header 3&lt;/h2&gt;
-            &lt;div class="va-accordion-close"&gt;
-                Content (include any HTML markup)
-                &lt;br /&gt;
-                Hello world!
-            &lt;/div&gt;
-        &lt;/div&gt;
+        <pre><code>
+            <span style="color:aqua;">&lt;</span><span style="color:Lime;">div</span>&nbsp;<span style="color:Fuchsia;">class</span><span style="color:aqua;">=</span><span style="color:aqua;">"va-accordion"</span><span style="color:aqua;">&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;</span><span style="color:lime;">span</span><span style="color:aqua;">&gt;</span>Accordion&nbsp;Main&nbsp;Header<span style="color:aqua;">&lt;/</span><span style="color:lime;">span</span><span style="color:aqua;">&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;</span><span style="color:lime;">h2</span><span style="color:aqua;">&gt;</span>Section&nbsp;Header&nbsp;1<span style="color:aqua;">&lt;/</span><span style="color:lime;">h2</span><span style="color:aqua;">&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;</span><span style="color:lime;">div</span>&nbsp;<span style="color:Fuchsia;">class</span><span style="color:aqua;">=</span><span style="color:aqua;">"va-accordion-open"</span><span style="color:aqua;">&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Content&nbsp;(include&nbsp;any&nbsp;HTML&nbsp;markup)
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;</span><span style="color:lime;">br</span>&nbsp;<span style="color:aqua;">/&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello&nbsp;world!
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;/</span><span style="color:lime;">div</span><span style="color:aqua;">&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;</span><span style="color:lime;">h2</span><span style="color:aqua;">&gt;</span>Section&nbsp;Header&nbsp;2<span style="color:aqua;">&lt;/</span><span style="color:lime;">h2</span><span style="color:aqua;">&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;</span><span style="color:lime;">div</span>&nbsp;<span style="color:Fuchsia;">class</span><span style="color:aqua;">=</span><span style="color:aqua;">"va-accordion-close"</span><span style="color:aqua;">&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Content&nbsp;(include&nbsp;any&nbsp;HTML&nbsp;markup)
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;</span><span style="color:lime;">br</span>&nbsp;<span style="color:aqua;">/&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello&nbsp;world!
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;/</span><span style="color:lime;">div</span><span style="color:aqua;">&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;</span><span style="color:lime;">h2</span><span style="color:aqua;">&gt;</span>Section&nbsp;Header&nbsp;3<span style="color:aqua;">&lt;/</span><span style="color:lime;">h2</span><span style="color:aqua;">&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;</span><span style="color:lime;">div</span>&nbsp;<span style="color:Fuchsia;">class</span><span style="color:aqua;">=</span><span style="color:aqua;">"va-accordion-close"</span><span style="color:aqua;">&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Content&nbsp;(include&nbsp;any&nbsp;HTML&nbsp;markup)
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;</span><span style="color:lime;">br</span>&nbsp;<span style="color:aqua;">/&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello&nbsp;world!
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:aqua;">&lt;/</span><span style="color:lime;">div</span><span style="color:aqua;">&gt;</span>
+            <span style="color:aqua;">&lt;/</span><span style="color:lime;">div</span><span style="color:aqua;">&gt;</span>
         </code></pre>
         <br />
         <h3><a name="rules" class="anchor" href="#rules"><span class="octicon octicon-link"></span></a>Rules:</h3>
@@ -86,15 +87,33 @@
         <br />
         <h2><a name="script" class="anchor" href="#script"><span class="octicon octicon-link"></span></a>Script:</h2>
         <p>OK, everything we need are ready, add the script to your page and call the accordion function like this: (you need add the jquery also)</p>
-        <pre><code>&lt;script src="Script/jquery-1.9.1.min.js" type="text/javascript"&gt;&lt;/script&gt;
-        &lt;script src="Script/vania.accordion.js" type="text/javascript"&gt;&lt;/script&gt;
-        &lt;script type="text/javascript"&gt;
-            $(document).ready(function () {
-                accordion();
-            });
-        &lt;/script&gt;
+        <pre><code>
+            <span style="color:aqua;">&lt;</span><span style="color:lime;">link</span>&nbsp;<span style="color:fuchsia;">href</span><span style="color:aqua;">=</span><span style="color:aqua;">"Style/vania.accordion.css"</span>&nbsp;<span style="color:fuchsia;">rel</span><span style="color:aqua;">=</span><span style="color:aqua;">"stylesheet"</span>&nbsp;<span style="color:fuchsia;">type</span><span style="color:aqua;">=</span><span style="color:aqua;">"text/css"</span>&nbsp;<span style="color:aqua;">/&gt;</span>
+            <span style="color:aqua;">&lt;</span><span style="color:lime;">script</span>&nbsp;<span style="color:fuchsia;">src</span><span style="color:aqua;">=</span><span style="color:aqua;">"Script/jquery-1.9.1.min.js"</span>&nbsp;<span style="color:fuchsia;">type</span><span style="color:aqua;">=</span><span style="color:aqua;">"text/javascript"</span><span style="color:aqua;">&gt;&lt;/</span><span style="color:lime;">script</span><span style="color:aqua;">&gt;</span>
+            <span style="color:aqua;">&lt;</span><span style="color:lime;">script</span>&nbsp;<span style="color:fuchsia;">src</span><span style="color:aqua;">=</span><span style="color:aqua;">"Script/vania.accordion.min.js"</span>&nbsp;<span style="color:fuchsia;">type</span><span style="color:aqua;">=</span><span style="color:aqua;">"text/javascript"</span><span style="color:aqua;">&gt;&lt;/</span><span style="color:lime;">script</span><span style="color:aqua;">&gt;</span>
+            <span style="color:aqua;">&lt;</span><span style="color:lime;">script</span>&nbsp;<span style="color:fuchsia;">type</span><span style="color:aqua;">=</span><span style="color:aqua;">"text/javascript"</span><span style="color:aqua;">&gt;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;$(document).ready(<span style="color:aqua;">function</span>&nbsp;()&nbsp;{
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;accordion();
+            &nbsp;&nbsp;&nbsp;&nbsp;});
+            <span style="color:aqua;">&lt;/</span><span style="color:lime;">script</span><span style="color:aqua;">&gt;</span>
         </code></pre>
         <p>Congratulation process done!</p>
+        <h2>Options:</h2>
+        <ul>
+            <li>
+                <strong>slideOpenDuration:</strong> Animation timing of slide opening. Default value is: [500]<br />
+                Use different value to make some effect.
+            </li>
+            <li>
+                <strong>slideCloseDuration:</strong> Animation timing of slide closing. Default value is: [500]<br />
+                Use different value to make some effect.
+            </li>
+            <li>
+                <strong>closeOther:</strong> Only one content show or more, when user click on headers. Default value is: [true]<br />
+                Limit user to show only one panel content with closeOther: true, and if you want user 
+                enable to open some panels at same time, set closeOther: false
+            </li>
+        </ul>
         <p>
             Be happy, Be Lucky.<br />
             Mehdi Rizvandi

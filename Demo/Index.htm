@@ -19,7 +19,8 @@
     <script src="Script/vania.accordion.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            accordion();
+            accordion({ slideOpenDuration: 600, slideCloseDuration: 600, closeOther: false });
+            // or just call accordion();
         });
     </script>
 </head>
