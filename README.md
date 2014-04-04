@@ -118,10 +118,8 @@ Be happy, Be Lucky.
 
 
 ** Information Page **
-
 http://git.mrizvandi.com/accordion/
 
 
 ** Demo **
-
 http://git.mrizvandi.com/Accordion/Demo/
