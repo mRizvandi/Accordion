@@ -117,9 +117,15 @@ Limit user to show only one panel content with closeOther: true, and if you want
 Be happy, Be Lucky.
 
 
-** Information Page **
+
+----------------------------------------
+
+
+**Information Page**
+
 http://git.mrizvandi.com/accordion/
 
 
-** Demo **
+**Demo**
+
 http://git.mrizvandi.com/Accordion/Demo/
