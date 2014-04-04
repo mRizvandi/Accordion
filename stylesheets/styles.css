@@ -209,7 +209,6 @@ hr {
   margin:0 0 20px;
 }
 footer {
-  width:640px;
   margin:0 auto;
   padding:20px 0 0;
   color:#ccc;
@@ -218,13 +217,26 @@ footer {
 footer a {color:#fff; font-weight:bold;}
 footer p {float:left;}
 footer p + p {float:right;}
+footer div.disqus
+{
+    clear:both;
+    padding:20px;
+    background:#666;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+    border-radius:8px;
+}
 @media screen and (min-width:640px)
 {
     .wrapper {width:640px;}
+    footer {width:640px;}
 }
 @media screen and (min-width:800px)
 {
     .wrapper {width:760px;}
+    footer {width:760px;}
 }
 @media print, screen and (max-width:740px) {
     body {padding:0;}
